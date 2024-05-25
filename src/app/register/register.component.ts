@@ -15,7 +15,7 @@ export class RegisterComponent {
 
   constructor(private authService: AuthService, private router: Router) {}
 
-  register() {
+  register() { /*
     this.authService.register(this.username, this.email, this.password).subscribe(
       response => {
         console.log(response);
@@ -30,6 +30,6 @@ export class RegisterComponent {
           this.errorMessage = 'Hubo un error al registrar el usuario';
         }
       }
-    );
+    ); */
   }
 }

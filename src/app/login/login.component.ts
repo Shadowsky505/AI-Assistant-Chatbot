@@ -20,7 +20,7 @@ export class LoginComponent {
   constructor(private authService: AuthService, private router: Router) {}
 
   login() {
-    console.log('Attempting to login...');
+    /* console.log('Attempting to login...');
     this.authService.login(this.email, this.password).subscribe(
       response => {
         console.log('Login response:', response);
@@ -34,6 +34,6 @@ export class LoginComponent {
         console.error('Login error:', error);
         this.errorMessage = error.message || 'Hubo un error al iniciar sesión';
       }
-    );
-  }
+    );*/
+  } 
 }
